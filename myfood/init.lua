@@ -136,6 +136,7 @@ minetest.register_craft({
 	    {"","farming:cutting_board","" },
 	    {"","mobs:meat_raw","" },
 	},
+	replacements = {{"farming:cutting_board", "farming:cutting_board"}},
 })
 
 minetest.register_craft({
