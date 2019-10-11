@@ -94,13 +94,15 @@ minetest.register_craft ({
 })
 
 minetest.register_craft({
+    type = "shaped",
     output = "myfood:pizza_boden",    
     recipe = {
         {"", "", "" },
         {"", "farming:flour", "" },
         {"", "farming:baking_tray", "" }
     },
-})
+	replacements = {{"farming:baking_tray", "farming:baking_tray"}},
+	})
 minetest.register_craft ({
     output = "myfood:pizza_schneider",
 	recipe = {
